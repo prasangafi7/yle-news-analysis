@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Dataset files (license + size: do not upload)
+data/*
+!data/README.md
+
+# Saved embeddings (large, can be regenerated)
+*.npy
+*.pkl
+
+# System and notebook clutter
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
